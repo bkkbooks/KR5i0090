@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0090/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0090/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 清微宏範道門功課
+  date: '2015-08-29 17:58:57.227197'
+  source:
+    repository: kanripo
+    path: KR5i0090
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0090_001-YP-C.yaml, hash: 'sha256:bde563134f8f76aa2f23a0495f5b7b67c72f3ff7b596fb80afd36c4f1840d893'}
+  - {seq: 2, filename: KR5i0090_002-YP-C.yaml, hash: 'sha256:061f168529a04052f6b70347302dfbdf99742cd34e887da5473df4ff787857b9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0090_001-YP-C.markers.yaml, hash: 'sha256:84a5c5e7b5e8b32adac266c1293b78bc97b3fc473edffa6abd286d3802a0b647'}
+  - {seq: 2, role: markers, filename: assets/KR5i0090_002-YP-C.markers.yaml, hash: 'sha256:49b9ccbdb9260e2617a6007322bb9bd6889c3cee035025fc12d506c72d9ab9f7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0090_26zhangji-01-0001a
+    span:
+    - body
+    - 0
+    - 389
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: YP-C_KR5i0090_26zhangji-01-0002a
+    span:
+    - body
+    - 0
+    - 14747
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:b0bf3cae4d2b65207c555805dee7d649c64f96656a437a9601afb1395359647d
